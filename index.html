@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seven Segment Display</title>
+  </head>
+  <style>
+    .rectangle {
+      height: 5px;
+      width: 300px;
+      border-bottom: 40px solid aquamarine;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      margin-left: 100px;
+    }
+
+    .rectangle-2 {
+      height: 5px;
+      width: 300px;
+      border-top: 40px solid springgreen;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      margin-left: 100px;
+    }
+
+    body {
+      position: relative;
+      left: 800px;
+      top: 100px;
+    }
+
+    .top {
+        position: absolute;
+    }
+
+    .top-right {
+      transform: rotate(90deg);
+      position: absolute;
+      left: 248.5px;
+      top: 150px;
+    }
+
+    .top-left {
+      transform: rotate(90deg);
+      position: absolute;
+      left: -149px;
+      top: 150px;
+    }
+
+    .mid {
+      position: absolute;
+      top: 400px;
+    }
+
+    .bottom-right {
+      position: absolute;
+      transform: rotate(90deg);
+      left: 248.5px;
+      top: 550px;
+    }
+
+    .bottom-left {
+      position: absolute;
+      transform: rotate(90deg);
+      left: -149px;
+      top: 548.5px;
+    }
+
+    .bottom {
+      position: absolute;
+      left: -1px;
+      top: 798px;
+    }
+  </style>
+  <body>
+            <div class="top">
+                <div class="rectangle"></div>
+                <div class="rectangle-2"></div>
+            </div>
+            <div class="top-right">
+                <div class="rectangle"></div>
+                <div class="rectangle-2"></div>
+            </div>
+            <div class="top-left">
+                <div class="rectangle"></div>
+                <div class="rectangle-2"></div>
+            </div>
+            <div class="mid">
+                <div class="rectangle"></div>
+                <div class="rectangle-2"></div>
+            </div>
+            <div class="bottom-right">
+                <div class="rectangle"></div>
+                <div class="rectangle-2"></div>
+            </div>
+            <div class="bottom-left">
+                <div class="rectangle"></div>
+                <div class="rectangle-2"></div>
+            </div>
+            <div class="bottom">
+                <div class="rectangle"></div>
+                <div class="rectangle-2"></div>
+            </div>
+  </body>
+</html>
